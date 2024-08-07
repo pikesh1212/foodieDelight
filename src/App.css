@@ -1,0 +1,66 @@
+.app-layout {
+  min-height: 100vh;
+  background: #f0f2f5;
+}
+
+.app-content {
+  padding: 24px;
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 24px !important;
+}
+
+.app-card {
+  height: calc(100vh - 180px);
+  overflow-y: auto;
+}
+
+.app-card .ant-card-body {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.restaurant-form .ant-form-item:last-child {
+  margin-bottom: 0;
+}
+
+.restaurant-list .ant-list-item {
+  padding: 16px 0;
+}
+
+.restaurant-list .ant-list-item:not(:last-child) {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+@media (max-width: 991px) {
+  .app-card {
+    height: auto;
+    margin-bottom: 24px;
+  }
+
+  .app-card .ant-card-body {
+    height: auto;
+    max-height: 60vh;
+  }
+}
+
+/* Custom styles for the form */
+.restaurant-form .ant-form-item-label {
+  font-weight: bold;
+}
+
+.restaurant-form .ant-input-number {
+  width: 100%;
+}
+
+/* Adjust spacing for the form */
+.restaurant-form .ant-form-item {
+  margin-bottom: 16px;
+}
+
+/* Style for the buttons */
+.restaurant-form .ant-btn {
+  min-width: 120px;
+}

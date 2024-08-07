@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Tasty Bites",
+    "description": "A cozy restaurant serving delicious comfort food.",
+    "location": "New York",
+    "cuisine": "American",
+    "rating": 4.5,
+    "averagePrice": 50,
+    "recommendedDish": "Classic Cheeseburger"
+  },
+  {
+    "id": 2,
+    "name": "Sushi Paradise",
+    "description": "Fresh and authentic Japanese cuisine in a modern setting.",
+    "location": "Los Angeles",
+    "cuisine": "Japanese",
+    "rating": 4.8,
+    "averagePrice": 80,
+    "recommendedDish": "Rainbow Roll"
+  },
+  {
+    "id": 3,
+    "name": "Mama Mia Pizzeria",
+    "description": "Traditional Italian pizzas and pasta made with love.",
+    "location": "Chicago",
+    "cuisine": "Italian",
+    "rating": 4.3,
+    "averagePrice": 40,
+    "recommendedDish": "Margherita Pizza"
+  }
+]

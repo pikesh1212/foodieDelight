@@ -1,0 +1,35 @@
+.restaurant-list-layout {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.restaurant-list-header {
+  padding: 16px 24px;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.restaurant-list-header .ant-divider {
+  margin: 16px 0 0;
+}
+
+.restaurant-list-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0 24px;
+}
+
+.restaurant-list-content .ant-list-item {
+  padding: 16px 0;
+}
+
+.restaurant-list-content .ant-list-item:not(:last-child) {
+  border-bottom: 1px solid #f0f0f0;
+}
